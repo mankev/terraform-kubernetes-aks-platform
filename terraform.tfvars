@@ -10,8 +10,8 @@ enable_kubernetes_secret = "0"
 
 # Cluster
 
-kubernetes_rbac_group = ""
-ingress_domain = ""
+kubernetes_rbac_group = "fuego"
+ingress_domain = "fuego"
 
 # Cert Manager
 
@@ -24,11 +24,11 @@ ingress_domain = ""
 #cert_manager_azure_zone_name = ""
 
 # Velero
-velero_backup_storage_resource_group = ""
-velero_backup_storage_account = ""
-velero_backup_storage_bucket = ""
-velero_azure_client_id = ""
-velero_azure_client_secret = ""
-velero_azure_resource_group = ""
-velero_azure_subscription_id = ""
-velero_azure_tenant_id = ""
+velero_backup_storage_resource_group = "kilokiwi-velero"
+velero_backup_storage_account = "kilokiwivelerovxf73"
+velero_backup_storage_bucket = "velero"
+velero_azure_client_id = "42356a06-58cb-44da-96d0-1c45ff9e891f"
+velero_azure_client_secret = "5[Pa3Gx8aNhDNXv_=ei?2s-/KJvR.mpp"
+velero_azure_resource_group = "db34070a-34ac-424a-bc08-e76d0e621dd0"
+velero_azure_subscription_id = "a9a5baa7-c636-4b97-bf33-010c47b5c659"
+velero_azure_tenant_id = "db34070a-34ac-424a-bc08-e76d0e621dd0"
