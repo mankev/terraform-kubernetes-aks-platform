@@ -17,7 +17,7 @@ data "helm_repository" "drupalwxt" {
 
 data "helm_repository" "statcan" {
     name = "statcan"
-    url  = "https://statcan.github.io/charts"
+    url  = "https://github.com/StatCan/charts"
 }
 
 resource "null_resource" "helm_repo_add" {
