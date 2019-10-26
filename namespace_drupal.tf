@@ -9,8 +9,8 @@
      }
    }
  }
-
-# module "namespace_drupal" {
+  
+ module "namespace_drupal" {
    source = "git::https://github.com/statcan/terraform-kubernetes-namespace.git"
 
    name = "${kubernetes_namespace.drupal.metadata.0.name}"
