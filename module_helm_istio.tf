@@ -17,7 +17,7 @@ global:
 
   k8sIngress:
     enabled: true
-    enableHttps: true
+    enableHttps: false
 
   controlPlanSecurityEnabled: true
   disablePolicyChecks: false
