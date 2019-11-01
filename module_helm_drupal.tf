@@ -40,13 +40,13 @@
    wxtTheme: theme-gcweb
 
    # Run the site install
-   install: true
+   install: false
 
    # Run the default migrations
-   migrate: true
+   migrate: false
 
    # Reconfigure the site
-   reconfigure: true
+   reconfigure: false
 
  nginx:
    # Set your cluster's DNS resolution service here
